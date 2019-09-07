@@ -11,7 +11,7 @@ Application Details:
 
 2) The script requires a url argument when running. Entering no argument will exit the script.
     
-	ex: python assignment2.py https://s3.amazonaws.com/cuny-is211-spring2015/birthdays100.csv)
+	ex: python assignment2.py https://s3.amazonaws.com/cuny-is211-spring2015/birthdays100.csv
 		
 		python assignment2.py
 		
