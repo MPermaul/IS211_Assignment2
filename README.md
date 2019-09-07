@@ -29,7 +29,8 @@ the application due to incorrect birthday formats in the csv file data.
 	
 	ex: 
 		The url is invalid --> passed in https://s3.amazonaws.co
-		Message displayed --> "We are unable to reach the server. Please check your url!"
+			Message displayed:
+				"We are unable to reach the server. Please check your url!"
 
 6) A message will be displayed in the console if the url is valid and there is nothing to process.
 
