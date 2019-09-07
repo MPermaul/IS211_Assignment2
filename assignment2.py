@@ -80,6 +80,8 @@ def main():
     except urllib.error.URLError as e:
         print('We are unable to reach the server. Please check your url!\n')
         print('Reason: ', e.reason)
+    except ValueError:
+        print('This is url seems to be missing the HTTP protocol. Please verify that it\'s correct.')
     else:
         # try to pass the data to processData function, print message to screen and exit if issue
         try:
