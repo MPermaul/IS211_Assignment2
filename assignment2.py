@@ -75,10 +75,10 @@ def main():
     try:
         csvData = downloadData(args.url)
     except urllib.error.HTTPError as e:
-        print('The server couldn\'t fulfill the request. Please check your url!')
+        print('The server couldn\'t fulfill the request. Please check your url!\n')
         print('Error code: ', e.code)
     except urllib.error.URLError as e:
-        print('We are unable to reach the server. Please check your url!')
+        print('We are unable to reach the server. Please check your url!\n')
         print('Reason: ', e.reason)
     else:
         # try to pass the data to processData function, print message to screen and exit if issue
