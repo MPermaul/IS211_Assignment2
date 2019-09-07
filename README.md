@@ -11,10 +11,9 @@ Application Details:
 
 2) The script requires a url argument when running. Entering no argument will exit the script.
     
-	ex: 
-		Good:	python assignment2.py https://s3.amazonaws.com/cuny-is211-spring2015/birthdays100.csv)
+	ex: python assignment2.py https://s3.amazonaws.com/cuny-is211-spring2015/birthdays100.csv)
 		
-		Bad:	python assignment2.py
+		python assignment2.py
 		
 			Message displayed:
 				usage: assignment2.py [-h] url
@@ -30,7 +29,7 @@ the application due to incorrect birthday formats in the csv file data.
 	
 	ex: 
 		The url is invalid --> passed in https://s3.amazonaws.co
-		b) Message displayed --> "We are unable to reach the server. Please check your url!"
+		Message displayed --> "We are unable to reach the server. Please check your url!"
 
 6) A message will be displayed in the console if the url is valid and there is nothing to process.
 
